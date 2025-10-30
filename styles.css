@@ -2,7 +2,7 @@
 table{
 	border: 1px solid orange;
   border-collapse: collapse;
-	padding: 0px 0px 1px 1px;
+	/* padding: 0px 0px 1px 1px; */
 }
 
 th{
@@ -16,6 +16,7 @@ td, th{
 	border-style:solid;
 	border-color: orange;
 	padding: 3px 5px;
+	box-shadow: 0 0 1px 1px orange;
 }
 
 .sub-total-text{
