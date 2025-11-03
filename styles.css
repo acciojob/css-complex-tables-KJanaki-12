@@ -16,9 +16,10 @@ td, th{
 	border-style:solid;
 	border-color: orange;
 	padding: 0;
-	box-shadow: 0 0 1px 1px orange;
+	/* box-shadow: 0 0 1px 1px orange; */
 }
 
 .sub-total-text{
 	text-align: right;
 }
+
