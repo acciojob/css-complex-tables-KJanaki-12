@@ -2,7 +2,7 @@
 
 table{
 	border: 1px solid orange;
-  border-spacing: 0;
+  border-collapse: collapse;
 	width: 100vw;
 	margin: 0px 0px 1px 1px;
 }
@@ -14,9 +14,8 @@ th{
 
 td, th{
 	text-align: center;
-	border:1px;
-	border-style:solid;
-	border-color: orange;
+	border-bottom: 1px solid orange;
+      border-right: 1px solid orange;
 	margin: 0px 0px 1px 1px;
 	/* box-shadow: 0 0 1px 1px orange; */
 }
