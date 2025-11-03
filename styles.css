@@ -4,8 +4,10 @@ table{
   border-collapse: collapse;
 	/* border: 1px solid orange; */
 	
-	border-left: 1px solid orange;
-	border-bottom: 1px solid orange;
+	border-left: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: orange;
 	width: 100vw;
 	margin: 0px 0px 1px 1px;
 }
@@ -17,8 +19,11 @@ th{
 
 td, th{
 	text-align: center;
-	border-top: 1px solid orange;
-	border-right: 1px solid orange;
+	border-right: 1px;
+	border-top: 1px; 
+	border-style: solid;
+	border-color: orange;
+	
 	margin: 0px 0px 1px 1px;
 	/* box-shadow: 0 0 1px 1px orange; */
 }
